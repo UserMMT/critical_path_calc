@@ -1,8 +1,8 @@
 import * as d3 from './d3bundle';
 import { SimulationNodeDatum } from './d3bundle';
 
-export const width = 800;
-export const height = 600;
+export const width = 900;
+export const height = 700;
 
 export const dragFunction = <T extends SimulationNodeDatum>(
   forceSim: d3.Simulation<T, undefined>,

@@ -84,5 +84,11 @@ h2 {
 }
 
 svg {
-  max-height: 94vh;
+  /* max-height: 94vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: unset;
+  padding: 10rem;
 }
